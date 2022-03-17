@@ -11,15 +11,12 @@
 
 // Part 1 answer 👇🏻 ...
 
-let fullName = "Ali Abdullah Akbar"
-let yearOfBirth = 1998
-let hobby = "Sleeping"
-let funFact = " Most facts aren't actually fun"
-const image = "https://media.istockphoto.com/vectors/user-avatar-profile-icon-black-vector-illustration-vector-id1209654046?k=20&m=1209654046&s=612x612&w=0&h=Atw7VdjWG8KgyST8AXXJdmBkzn0lvgqyWod9vTb2XoE="
-
-
-
-
+let fullName = "Ali Abdullah Akbar";
+let yearOfBirth = 1998;
+let hobby = "Sleeping";
+let funFact = " Most facts aren't actually fun";
+const image =
+  "https://media.istockphoto.com/vectors/user-avatar-profile-icon-black-vector-illustration-vector-id1209654046?k=20&m=1209654046&s=612x612&w=0&h=Atw7VdjWG8KgyST8AXXJdmBkzn0lvgqyWod9vTb2XoE=";
 
 /**
  * Part 2: String Interpolation
@@ -29,17 +26,14 @@ const image = "https://media.istockphoto.com/vectors/user-avatar-profile-icon-bl
  * 1. fullNameString      -> assign it to: My name is {fullName}
  * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
 
 const fullNameString = `My name is ${fullName}`;
-const yearOfBirthString = `I am ${2022-1998}`;
-const hobbyString = `My hobby is ${hobby}`
-
-
-
+const yearOfBirthString = `I am ${2022 - yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
@@ -49,18 +43,15 @@ const hobbyString = `My hobby is ${hobby}`
 let stars = 0;
 
 function incrementBy1() {
-  stars+=1;
+  stars += 1;
 }
 function decrementBy1() {
-  stars-=1;
-
+  stars -= 1;
 }
 
 function incrementBy2() {
-  stars+=2;
-
+  stars += 2;
 }
 function decrementBy2() {
-  stars-=2;
-
+  stars -= 2;
 }
